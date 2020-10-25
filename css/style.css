@@ -40,7 +40,7 @@ p {
      padding-top: 20px;
  }
 
- #submit {
+ #submit-button {
      margin-left: 20px;
      margin-bottom: 40px;
      background-color: turquoise !important;
@@ -48,6 +48,41 @@ p {
      padding: 20px 40px !important;
  }
 
- #bottom-image {
-     margin-bottom: 40px !important;
+ #bottom-image-left, #bottom-image-right {
+     margin-bottom: 40px;
+ }
+
+ @media (max-width: 768px){
+    .navbar-brand {
+        margin-left: 0;
+    }
+
+    #bottom-image-left {
+        margin-bottom: 0;
+    }
+ }
+
+ @media (max-width: 400px){
+     .container {
+         width: 95% !important;
+     }
+
+     #profile-picture {
+         width: 250px !important;
+     }
+
+     .img-thumbnail {
+         padding-left: 10px;
+     }
+
+     p {
+         padding-left: 10px;
+         padding-right: 10px;
+     }
+
+     form {
+         margin: 0 auto;
+         padding: 40px;
+     }
+
  }
