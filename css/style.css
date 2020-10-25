@@ -1,19 +1,23 @@
+/* Background image for background and bottom border for all pages */
 body {
     background-image: url(../assets/images/background.jpg);
     border-bottom: 10px solid turquoise;
     border-width: 5px;
 }
 
-#section {
+/* Main column to set background color and separate ir from navbar */
+#main-column {
     background-color: white;
     margin-top: 70px;
 }
 
+/* h1 modifications */
 h1 {
     padding: 20px;
     color: turquoise;
 }
 
+/* img-thumbnail edits to position the image and to allow wrapping */
 .img-thumbnail {
     padding-left: 20px;
     padding-right: 20px;
@@ -21,25 +25,31 @@ h1 {
     float: left;
 }
 
+/* Edits to paragraph to allow readability */
 p {
     padding-left: 20px;
     padding-top: 20px;
 }
 
+/* Container margin for separation from bottom of page */
 .container {
     margin-bottom: 50px;
 }
 
+/* Navbar brand edits for better positioning */
 .navbar-brand {
     background-color:turquoise;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 50px;
 }
+
+/* Form edits to better position in page */
  form {
      padding-left: 40px;
      padding-top: 20px;
  }
 
+ /* Submit button edits in order to follow required design */
  #submit-button {
      margin-left: 20px;
      margin-bottom: 40px;
@@ -48,38 +58,50 @@ p {
      padding: 20px 40px !important;
  }
 
+ /* Space for last two images in portfolio page */
  #bottom-image-left, #bottom-image-right {
      margin-bottom: 40px;
  }
 
+ /* Media query for size at or less than 768px */
  @media (max-width: 768px){
+    
+    /* Removes left margin for navbar brand */
     .navbar-brand {
         margin-left: 0;
     }
 
+    /* Remove bottom margin from one of the images in portfolio page */
     #bottom-image-left {
         margin-bottom: 0;
     }
  }
 
+ /* Media query for size at or less than 400px */
  @media (max-width: 400px){
-     .container {
+    
+    /* Adjust container width */
+    .container {
          width: 95% !important;
      }
 
+     /* Adjust profile picture width for better readability */
      #profile-picture {
          width: 250px !important;
      }
 
+     /* Changed padding for better readability*/
      .img-thumbnail {
          padding-left: 10px;
      }
 
+     /* Changed padding for better readability */
      p {
          padding-left: 10px;
          padding-right: 10px;
      }
 
+     /* Changed margin and padding for better positioning */
      form {
          margin: 0 auto;
          padding: 40px;
