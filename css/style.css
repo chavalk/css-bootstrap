@@ -35,4 +35,19 @@ p {
     font-family: 'Times New Roman', Times, serif;
     margin-left: 50px;
 }
+ form {
+     padding-left: 40px;
+     padding-top: 20px;
+ }
 
+ #submit {
+     margin-left: 20px;
+     margin-bottom: 40px;
+     background-color: turquoise !important;
+     border-radius: 0 !important;
+     padding: 20px 40px !important;
+ }
+
+ #bottom-image {
+     margin-bottom: 40px !important;
+ }
