@@ -16,8 +16,18 @@ Below are screenshots of all three pages:
 ![code refactor demo](./assets/images/contact.png)
 ![code refactor demo](./assets/images/portfolio.png)
 
+## Technologies Used
+
+* HTML
+* CSS
+* Bootstrap
+
 ## URL 
 
 Here is the link to the live website:
 
 https://chavalk.github.io/css-bootstrap/
+
+## Contact Information
+
+Email: chavalk@hotmail.com
