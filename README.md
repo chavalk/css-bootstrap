@@ -8,7 +8,7 @@ A portfolio application built to showcase information about me and my different 
 
 ## What the project does
 
-The projects allows me to showcase all my developer projects, information about me, and a contact section. Below is a GIF showing the application in action.
+The project allows me to showcase all my developer projects, information about me, and a contact section. Below is a GIF showing the application in action.
 
 ![css-bootstrap-portfolio](./assets/images/css-bootstrap-portfolio.gif)
 
