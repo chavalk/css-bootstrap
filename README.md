@@ -1,33 +1,41 @@
-# css-bootstrap
+# CSS Bootstrap Portfolio
 
-## CSS-Bootstrap Project
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was to create three pages for a website using the Bootstrap grid layout. The main page is an about me page and the other two are a contact page and portfolio page. Each page included different information so different Bootstrap components had to be used.
+## Description
 
-The main page include an about me which had a profile picture and a paragraph surrounding the picture. Two rows were built one for the heading and another one for the picture and paragraph. The contact page includes three forms. One for the name, one for the email, and one for a message. It also includes a submit button. A few edits were done in CSS in order to match the design requested in the assignment.
+A portfolio application built to showcase information about me and my different projects.
 
-The third page is the portfolio page which only includes a heading and two columns of images. In order to facilitate the arrangement and responsiveness of the images, one column and three rows were used to build the Bootstrap grid layout for this page
+## What the project does
 
-All three pages have the same navigation bar which is already responsive. All three pages are responsive too since the Bootstrap CDN is imported into the pages. A ver low number of media queries were needed to facilitate better readability in some of the pages.
+The projects allows me to showcase all my developer projects, information about me, and a contact section. Below is a GIF showing the application in action.
 
-Below are screenshots of all three pages:
+![css-bootstrap-portfolio](./assets/images/css-bootstrap-portfolio.gif)
 
-![code refactor demo](./assets/images/aboutme.png)
-![code refactor demo](./assets/images/contact.png)
-![code refactor demo](./assets/images/portfolio.png)
+## Why is the project useful
 
-## Technologies Used
+The project allows me to build a site to showcase my portfolio, information about me, and a contact section.
+
+## How can users get started with this project
+
+Simply navigate to the deployed version of the site at the link listed below.
+
+https://chavalk.github.io/css-bootstrap/
+
+## What technologies were used with this project
 
 * HTML
 * CSS
 * Bootstrap
 
-## URL 
+## Where can users get help with your project
 
-Here is the link to the live website:
+My GitHub username is: chavalk
 
-https://chavalk.github.io/css-bootstrap/
+Link: https://github.com/chavalk
 
-## Contact Information
+If you have additional questions, feel free to reach me at chavalk@hotmail.com.
 
-Email: chavalk@hotmail.com
+## Who maintains and contributes to the project
+
+Currently I'm the only person maintaining and contributing to the project.
